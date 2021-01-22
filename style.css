@@ -16,13 +16,17 @@ body {
     grid-template-rows: 2.0fr 1fr 3.0fr;
     grid-template-columns: 3.0fr 4.0fr 3.0fr;
     column-gap: 0px;
-    row-gap: 20px;  
+    row-gap: 20px; 
+     
 }
 
 .grid-container {
     display: block;
     background-color: #FFFFFF;
     color: #C6D6E2;
+    margin: 6px;
+    padding: 6px;
+    
     
 }
 
@@ -54,5 +58,9 @@ h1 {
     display: inline;
 }
 
+.seeyou {
+    color: #FFFFFF;
+    background-color:#DD5555;;
+}
 
 
