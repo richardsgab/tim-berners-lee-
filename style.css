@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    background-color: #EBEBEB;
+    font-family: Open Sans; 
+    display: grid;
+    grid-template-rows: 2.0fr 1fr 3.0fr;
+    grid-template-columns: 3.0fr 4.0fr 3.0fr;
+    column-gap: 0px;
+    row-gap: 20px;  
+}
+
+.grid-container {
+    display: block;
+    background-color: #FFFFFF;
+    color: #C6D6E2;
+    
+}
+
+.header{
+    grid-area:1/4/3/8;
+    padding: 6px;
+    margin: 5px;
+
+}
+
+.contact {
+    grid-area:3/4/4/8;
+    padding: 20px;
+    margin: 5px;
+}
+
+.movies {
+    grid-area:4/4/6/8;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+h1 {
+    color:#DD5555;
+}
+
+.movies .moviebox {
+    display: inline;
+}
+
+
+
